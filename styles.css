@@ -1,10 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+header {
+    height: 300px;
+    weight: 100%;
+}
+
+h1 {
+    font-family: Bebas Neue Cyrillic;
+    color: #336699;
+}
+
+hr {
+    color: #1a2b4c;
+    width: 80%;
+    height: 2em;
+    justify-content: center;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 3.5rem;
+    color: #1a2b4c;
+    text-align: justify;
+}
+
+a {
+    color: #336699;
+}
+
+a:hover {
+    color: #b0b5ba;
+}
+
+footer {
+    background-color: #336699;
+    height: 100px;
+    width: 100%;
+    border-top: 1.5rem solid #1a2b4c;
+}
+
+.navigation {
+    background-color: #1a2b4c;
+    font-family: "Bebas Neue Cyrillic", sans-serif;
+    font-size: 3em;
+    color: #b0b5ba;
+    line-height: 2; 
+}
+
 .hero img {
     width: 400px
     height: auto;
     display: block;
 }
-
-
 
 .location {
     font-family: 'Arial', sans-serif;
