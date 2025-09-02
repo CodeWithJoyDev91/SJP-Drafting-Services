@@ -10,10 +10,11 @@ body {
 
 header {
     height: 300px;
-    weight: 100%;
+    width: 100%;
 }
 
 h1 {
+    font-size: 5rem;
     font-family: Bebas Neue Cyrillic;
     color: #336699;
 }
@@ -32,6 +33,13 @@ p {
     text-align: justify;
 }
 
+ul li {
+    font-size: 3.5rem;
+    font-family: Roboto, sans-serif;
+    color: #1a2b4c;
+    text-align: justify;
+}
+
 a {
     color: #336699;
 }
@@ -42,9 +50,11 @@ a:hover {
 
 footer {
     background-color: #336699;
-    height: 100px;
+    height: 200px;
     width: 100%;
     border-top: 1.5rem solid #1a2b4c;
+    padding: 2rem;
+    text-align: center;
 }
 
 .navigation {
@@ -55,8 +65,23 @@ footer {
     line-height: 2; 
 }
 
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #b0b5ba;
+    font-weight: bold;
+}
+
 .hero img {
-    width: 400px
+    width: 400px;
     height: auto;
     display: block;
 }
@@ -90,13 +115,6 @@ footer {
     background-color: #e9e9e9
 }
 
-.footer {
-    background-color: #333;
-    padding: 2rem;
-    text-align: center;
-    border-top: 1px solid #ddd;
-}
-
 .contact-cta p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
@@ -104,13 +122,15 @@ footer {
 }
 
 .contact-button {
-    background-color: #333;
-    color: white;
+    background-color: #1a2b4c;
+    height: 3rem;
+    width: 4.5rem;
+    color: #e9e9e9;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .contact-button:hover {
@@ -186,7 +206,7 @@ footer {
 @media (max-width: 768px) {
     .images {
         flex-direction: column;
-        align-item: center;
+        justify-content: center;
     }
 
     .project-info h3 {
