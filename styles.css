@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 3.5rem; 
 }
 
 body {
@@ -14,7 +15,7 @@ header {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-family: Bebas Neue Cyrillic;
     color: #336699;
 }
@@ -52,18 +53,19 @@ footer {
     background-color: #336699;
     height: 200px;
     width: 100%;
+    font-size: 3.5rem;
     border-top: 1.5rem solid #1a2b4c;
     padding: 2rem;
     text-align: center;
 }
 
 .navigation {
-    background-color: #1a2b4c;
+    background-color: #336699;
     font-family: "Bebas Neue Cyrillic", sans-serif;
     font-size: 3em;
     color: #b0b5ba;
     line-height: 2; 
-}
+    border-bottom: 1.5rem solid #1a2b4c;
 
 .navigation ul {
     list-style: none;
@@ -76,8 +78,12 @@ footer {
 
 .navigation ul li a {
     text-decoration: none;
-    color: #b0b5ba;
+    color: #ffffff;
     font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    color: #b0b5ba;
 }
 
 .hero img {
@@ -88,7 +94,7 @@ footer {
 
 .location {
     font-family: 'Arial', sans-serif;
-    font-size: 1rem;
+    font-size: 3.5rem;
     color: #333;
     text-align: center;
     padding: 1rem;
@@ -104,11 +110,13 @@ footer {
 .button-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #1a2b4c;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    height: 4rem;
+    width: 50px;
 }
 
 .button-link:hover {
@@ -124,7 +132,7 @@ footer {
 .contact-button {
     background-color: #1a2b4c;
     height: 3rem;
-    width: 4.5rem;
+    width: 50px;
     color: #e9e9e9;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
